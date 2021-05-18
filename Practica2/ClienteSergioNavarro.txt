@@ -1,0 +1,24 @@
+Agencia Espacial Mexicana
+Primra vista
+  About
+	(Descripción de la agencia) 
+		¿Cuáles son los objetivos?
+		Los logros
+		¿Quién es nuestro equipo?
+		Miembros destacados
+		¿Cuál es nuestra misión?
+		Que es lo que hace la agencia
+	
+Segunda vista
+  News 
+	Próximos proyectos 
+		Imágenes de los avances
+		Se muestren a los patrocinadores y los colaboradores de los proyectos
+	Próximo eventos
+		Fechas y descripción de los eventos 
+
+Tercera
+  Contactos
+	Apartado para poder contactar a la agencia así como a algunos promotores
+	Redes Sociales
+	Numeros telefonicos, etc.
