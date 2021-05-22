@@ -1,0 +1,124 @@
+/*=FUENTES
+---------------------------------------------*/
+/*Titulos*/
+@font-face{
+    font-family: "GentiumBookBasic";
+    src: url("../fonts/Gentium_Book_Basic/GentiumBookBasic-Regular.ttf");
+}
+
+@font-face{
+    font-family: "GentiumBookBasicI";
+    src: url("../fonts/Gentium_Book_Basic/GentiumBookBasic-Italic.ttf");
+}
+
+@font-face{
+    font-family: "GentiumBookBasicB";
+    src: url("../fonts/Gentium_Book_Basic/GentiumBookBasic-Bold.ttf");
+}
+
+/*Medios Titulos*/
+@font-face{
+    font-family: "Alegreya";
+    src: url("../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "AlegreyaI";
+    src: url("../fonts/Alegreya_Sans/AlegreyaSans-Italic.ttf");
+}
+
+@font-face{
+    font-family: "AlegreyaB";
+    src: url("../fonts/Alegreya_Sans/AlegreyaSans-Bold.ttf");
+}
+
+/*Texto*/
+@font-face{
+    font-family: "Amiko";
+    src: url("../fonts/Amiko/Amiko-Regular.ttf");
+}
+
+@font-face{
+    font-family: "AmikoB";
+    src: url("../fonts/Amiko/Amiko-Bold.ttf");
+}
+
+/*=COLORES
+---------------------------------------------*/
+:root{
+    --azulfuerte: #257180;
+    --azulclaro: #21B5D1;
+    --rojofuerte: #991D53;
+    --rojoclaro: #D1025C;
+    --amarillo: #E0CF31;
+    --blanco: white;
+
+}
+/*=NAV
+---------------------------------------------*/
+nav{
+    background-color: var(--azulfuerte);
+    z-index: 1000000;
+    position: fixed;
+    width: 100%;
+}
+#titulo{
+    font-family: "GentiumBookBasicI";
+    font-size: 48px;
+    color: var(--blanco);
+    margin-left: 12%;
+    cursor: pointer;
+}
+#rectangulo{
+    position: absolute;
+    width: 165px;
+    height: 148px;
+    left: 21px;
+    top: 10px;
+    background: var(--rojofuerte);
+    border-radius: 10px;
+}
+a{
+    font-family: "AlegreyaB";
+    font-size: 38px;
+    color: var(--blanco);
+    margin-left: 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#logo{
+    position: absolute;
+    width: 112px;
+    height: 115px;
+    left: 47px;
+    top: 27px;
+    border-radius: 10px;
+}
+/*=FOOTER
+---------------------------------------------*/
+footer{
+    border-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--azulfuerte);
+}
+
+#finalart{
+    font-family: "GentiumBookBasicI";
+    font-size: 38px;
+    color: var(--blanco);
+    margin-left: 85%;
+    cursor: pointer;
+}
+
+/*=BODY
+---------------------------------------------*/
+body{
+    margin: 0;
+}
+
+p{
+    font-family: "Amiko";
+    font-size: 18px;
+}

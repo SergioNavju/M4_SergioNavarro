@@ -1,0 +1,167 @@
+nav{
+    position: fixed;
+    background-color: var(--azulfuerte);
+    z-index: 1000000;
+    width: 100%;
+}
+/*=HEADER
+---------------------------------------------*/
+header{
+    position: relative;
+    padding-top: 70px;
+}
+
+#lugnomObra{
+    position: absolute;
+    width: 100%;
+    left: 10%
+}
+
+#nomObra{
+    font-family: "GentiumBookBasicI";
+    font-size: 56px;
+}
+
+#lugObra{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    left: 55%
+}
+
+#Obra{
+    width:625px;
+    border-radius: 7px;
+}
+
+
+
+/*=DESCRIPCION OBRA
+---------------------------------------------*/
+#desObra0{
+    position: relative;
+    height: 250px;
+    top: 120px;
+    margin-bottom: 45px;
+}
+
+#desObra1{
+    position: relative;
+    width: 35%;
+    height: 42px;
+    top: 106px;
+    left: 13.9%;
+}
+
+#desObra1{
+    position: relative;
+    width: 100%;
+    top: 10px;
+}
+
+#descrip{
+    font-family: "Alegreya";
+}
+
+#desObra2{
+    position: relative;
+    width: 35%;
+    left: 17%;
+    text-align: center;
+}
+
+
+/*=ESPECIFICACIONES DE LA OBRA
+---------------------------------------------*/
+#especs{
+    position: relative;
+    padding-top: 9%;
+    width: 100%;
+    left:17%;
+    font-family:"Amiko";
+}
+
+#nomArtis{
+    position: relative;
+    width: 100%;
+    left: 40px;
+}
+/*=ARTICLE
+---------------------------------------------*/
+
+#desArt{
+    position: relative;
+
+    width: 55%;
+    height: 170px;
+    left: 15%; 
+
+    margin-top: 30px;
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+
+    text-align: justify;
+
+    background: var(--amarillo);
+
+    float:left;
+}
+
+#imgArt{  
+    position: relative;
+    width: 28%;
+    float: right;
+}
+
+/*=SECTION
+---------------------------------------------*/
+section{
+    position: absolute;
+    margin-top: 50px;
+    padding-top: 75px;
+    width: 100%;
+    height: 100vh;
+}
+
+#barra1{
+    text-align: center;
+    position: absolute;
+    right: 72.5%;
+}
+#barra2{
+    text-align: center;
+    position: absolute;
+    right: 57.5%;
+}
+#barra3{
+    text-align: center;
+    position: absolute;
+    right: 42.5%;
+    margin-bottom: 60px;
+}
+#barra4{
+    text-align: center;
+    position: absolute;
+    right: 27.5%;
+}
+#barra5{
+    text-align: center;
+    position: absolute;
+    right: 12.5%;
+}
+
+.img{
+    width:263px;
+    height:100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family:"AlegreyaB";
+    position: relative;
+    left: 13.5%;
+} 
